@@ -21,8 +21,10 @@ In neural style transfer, we have a content image and a style image, and we comb
 ## Image Generating with GANs:
 To understand GANs, we need to understand two terms: generator and discriminator. First, we should have a reasonable sample of images of an object. A generative network (generator) learns representation from a sample of images and then generates images similar to the sample of images. A discriminator network (discriminator) is one that looks at the image generated (by the generator network) and the original sample of images and classifies images as original ones or generated (fake) ones.
 
-To generate realistic image using deep convolutional GANs to generate more realistic images. 
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/CDGAN.png" height=500, width=300>
-Conditional DCGAN for generate specific class of image.
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/condi_dcgan.png" height=500, width=300>
+To generate realistic image using deep convolutional GANs to generate more realistic images. In adiition, conditional DCGAN for generate specific class of image. 
+<figure>
+  <img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/CDGAN.png" height=500, width=300><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/condi_dcgan.png" height=500, width=300>
+  <figcaption>DCGAN and Conditional DCGAN</figcaption>
+  
+</figure>
 
