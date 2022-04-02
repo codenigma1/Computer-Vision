@@ -1,1 +1,9 @@
-# NLP
+# Natural Language Processing
+<p> Natural language processing strives to build machines that understand and respond to text or voice data—and respond with text or speech of their own—in much the same way humans do. </p>
+
+## Character wise language model using RNN:
+I created a character-wise language model using a recurrent neural network (RNN) to generate new text data from large chunks of text. I followed Prof. Karpathy's work on RNN for this model. I encountered significant difficulties in implementing and comprehending the powerful formalism used to process them sequentially. First, I encode each character into a vector (one-hot encoding), then feed it into an RNN one at a time, which produces a probability for each character. Essentially, it generates text by sampling the next character from the top k, most likely based on the current sequence's probability distribution (Softmax classifier) of the last character. I trained the model with Mini batches.
+
+
+## Sentiment analysis:
+I built a model that can read in some text and make a prediction about the sentiment of that text, where it is positive or negative. I trained the model on a dataset of movie reviews from IMDB that have been labeled either "positive" or "negative". Since this is text data, words in a sequence, I did data preprocessing such as tokenizing the words, cleaning, and padding data. Then, I passed the data to a Recurrent Neural Network with two Long Short-Term Memory (LSTM) hidden layers to create a model that considers not only the individual words, but also the order in which they appear. Following that, a dropout layer is used to prevent overfitting and to define a well-generalized model for predicting whether text is positive or negative. On the test set, the model achieved 81 percent accuracy and was tested with new opinions and text.
