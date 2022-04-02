@@ -9,6 +9,8 @@ Image classifier to recognize different species of flowers. We can imagine using
 #### Prediction model of single image: 
 <img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/one_pred.png" height=250 width=500><img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/one_pred2.png" height=250 width=500>
 
+Download train model please click [here](https://nr9tzjm73q.clg07azjl.paperspacegradient.com/files/classifier.pt_xsrf=2%7C9b1bc175%7C394b5fd95d39391d3d0578d5a1ff130c%7C1648898218)
+
 ## Neural Style Transfer:
 In neural style transfer, we have a content image and a style image, and we combine these two images in such a way that the combined image preserves the content of the content image while maintaining the style of the style image. An example style image and content image are as follows:
 
