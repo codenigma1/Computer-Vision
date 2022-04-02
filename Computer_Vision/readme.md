@@ -12,7 +12,7 @@ Image classifier to recognize different species of flowers. We can imagine using
 ## Neural Style Transfer:
 In neural style transfer, we have a content image and a style image, and we combine these two images in such a way that the combined image preserves the content of the content image while maintaining the style of the style image. An example style image and content image are as follows:
 
-<img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/try7.jpg" height=250 width=350><img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/anom.jpg" height=250 width=350>
+<img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/try7.jpg" height=200 width=250><img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/anom.jpg" height=200 width=250>
 
 #### Output:
 <img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/style_transfer/genU2.png" height=250 width=500>
