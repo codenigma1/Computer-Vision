@@ -23,6 +23,6 @@ To understand GANs, we need to understand two terms: generator and discriminator
 
 To generate realistic image using deep convolutional GANs to generate more realistic images. In adiition, conditional DCGAN for generate specific class of image. 
 
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/CDGAN.png" title='DCGANs' height=500, width=350>
+<img title = "DCGAN"  src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/CDGAN.png" title='DCGANs' height=500, width=350>
 
 <!-- <img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/condi_dcgan.png" height=500, width=300> -->
