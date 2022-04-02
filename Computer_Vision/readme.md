@@ -12,7 +12,7 @@ Image classifier to recognize different species of flowers. We can imagine using
 ## Neural Style Transfer:
 In neural style transfer, we have a content image and a style image, and we combine these two images in such a way that the combined image preserves the content of the content image while maintaining the style of the style image. An example style image and content image are as follows:
 
-<img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/try7.jpg" height=200 width=250><img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/anom.jpg" height=200 width=250>
+<img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/try7.jpg" height=250 width=250><img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/archive/anom.jpg" height=250 width=250>
 
 #### Output:
 <img src = "https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/style_transfer/genU2.png" height=250 width=500>
@@ -46,12 +46,12 @@ of a larger size caused the generators or discriminators to fall into local mini
 <img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/orignal.png" height=300, width=600><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/syth.png" height=300, width=600>
 
 #### Transfer high level of features:
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high_level.png" height=300, width=600>
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high_level.png" height=250, width=250>
 
 #### Transfer granular features:
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/hgih2.png" height=300, width=600>
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/hgih2.png" height=250, width=250>
 
 #### Transfer general image features:
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high2.png" height=300, width=600>
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high2.png" height=300, width=400>
 
 
