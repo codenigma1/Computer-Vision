@@ -23,4 +23,35 @@ To understand GANs, we need to understand two terms: generator and discriminator
 
 To generate realistic image using deep convolutional GANs to generate more realistic images. In adiition, conditional DCGAN for generate specific class of image. 
 #### DCGAN and Conditional DCGAN:
-<img title = "DCGAN"  src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/CDGAN.png" title='DCGANs' height=500, width=350><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/condi_dcgan.png" height=500, width=350>
+<img title = "DCGAN"  src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/CDGAN.png" title='DCGANs' height=500, width=400><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/condi_dcgan.png" height=500, width=400>
+
+## Advanced GANs:
+#### Pix2Pix GAN:
+Imagine a scenario where we have pairs of images that are related to each other (for example, an image of edges of an object as input and an actual image of the object as output). The challenge given is that we want to generate an image given the input image of the edges of an object. In a traditional setting, this would have been a simple mapping of input to output and hence a supervised learning problem. However, imagine that you are working with a creative team that is trying to come up with a
+fresh look for products. In such a scenario, supervised learning does not help as much – as it learns only from history. A GAN comes in handy here because it will ensure that the generated image looks realistic enough and leaves room for experimentation (as we are interested in checking whether the generated image seems like one of the classes of interest or not).
+
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/shoes1.png" height=300, width=600>
+
+#### Cycle GAN:
+CycleGAN to convert the image of an appleinto the image of an orange and vice versa. The Cycle in CycleGAN refers to the fact that we are translating (converting) an image from one class to another and back to the original class.
+
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/cycle.png" height=300, width=600>
+
+
+#### Customize StyleGAN:
+Leveraging StyleGAN on custom images. 
+Let's first understand a few historical developments prior to the invention of StyleGAN. As we know, generating fake faces from the previous chapter involved the usage of GANs. The biggest problem that research faced was that the images that could be generated were small (typically 64 x 64). And any effort to generate images
+of a larger size caused the generators or discriminators to fall into local minima that would stop training and generate gibberish. One of the major leaps in generating high-quality images involved a research paper called ProGAN (short for Progressive GAN), which involved a clever trick.
+
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/orignal.png" height=300, width=600><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/syth.png" height=300, width=600>
+
+#### Transfer high level of features:
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high_level.png" height=300, width=600>
+
+#### Transfer granular features:
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/hgih2.png" height=300, width=600>
+
+#### Transfer general image features:
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high2.png" height=300, width=600>
+
+
