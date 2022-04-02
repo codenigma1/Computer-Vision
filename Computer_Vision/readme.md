@@ -43,15 +43,12 @@ Leveraging StyleGAN on custom images.
 Let's first understand a few historical developments prior to the invention of StyleGAN. As we know, generating fake faces from the previous chapter involved the usage of GANs. The biggest problem that research faced was that the images that could be generated were small (typically 64 x 64). And any effort to generate images
 of a larger size caused the generators or discriminators to fall into local minima that would stop training and generate gibberish. One of the major leaps in generating high-quality images involved a research paper called ProGAN (short for Progressive GAN), which involved a clever trick.
 
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/orignal.png" height=300, width=600><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/syth.png" height=300, width=600>
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/orignal.png" height=250, width=300><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/syth.png" height=250, width=300>
 
-#### Transfer high level of features:
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high_level.png" height=250, width=250>
-
-#### Transfer granular features:
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/hgih2.png" height=250, width=250>
+#### Transfer high level of features and Transfer granular features::
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high_level.png" height=250, width=250><img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/hgih2.png" height=250, width=250>
 
 #### Transfer general image features:
-<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high2.png" height=300, width=400>
+<img src="https://github.com/codenigma1/Deep-Learning/blob/master/Computer_Vision/AutoEncoder_and_Image_Mainpulation/results/high2.png" height=300, width=300>
 
 
